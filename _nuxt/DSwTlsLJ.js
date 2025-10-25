@@ -1,0 +1,1 @@
+import{_ as o,i as e,o as _,w as s,d as c,e as a}from"#entry";const r={};function i(x,t){const n=a;return _(),e(n,{to:"contacts",class:"btn btn-green"},{default:s(()=>[...t[0]||(t[0]=[c("Записаться на консультацию",-1)])]),_:1})}const p=Object.assign(o(r,[["render",i]]),{__name:"BookingButton"});export{p as _};
