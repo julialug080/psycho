@@ -1,0 +1,1 @@
+import{_ as n,c as o,o as s,b as c,w as _,d as a,e as r}from"#entry";const i={},x={class:"flex justify-center"};function f(m,t){const e=r;return s(),o("section",x,[c(e,{to:"contacts",class:"btn btn-green"},{default:_(()=>[...t[0]||(t[0]=[a("Записаться на консультацию",-1)])]),_:1})])}const d=Object.assign(n(i,[["render",f]]),{__name:"BookingButton"});export{d as _};
