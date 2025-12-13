@@ -2,5 +2,6 @@
 deployment:
   tasks:
     - export DEPLOYPATH=/home/psyhohelpb/public_html/
-    - /bin/cp -R folder $DEPLOYPATH
-    - /bin/cp file.name $DEPLOYPATH
+    - export REPOPATH=/home/psyhohelpb/repositories/psycho/
+    - /bin/rsync -aP --exclude '.git' --exclude '.well-known' ${REPOPATH}/ ${DEPLOYPATH} --delete-after
+    - /bin/chmod -R 755 ${DEPLOYPATH}
