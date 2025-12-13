@@ -1,0 +1,6 @@
+---
+deployment:
+  tasks:
+    - export DEPLOYPATH=/home/psyhohelpb/public_html/
+    - /bin/cp -R folder $DEPLOYPATH
+    - /bin/cp file.name $DEPLOYPATH
