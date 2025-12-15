@@ -1,2 +1,8 @@
-User-Agent: *
-Disallow:
+User-agent: *
+Allow: /
+Disallow: /agreement
+Disallow: /privacy
+Disallow: /admin
+Disallow: /login
+
+Sitemap: https://psyhohelp.by/sitemap.xml
