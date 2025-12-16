@@ -1,8 +1,7 @@
+# START nuxt-robots (indexable)
 User-agent: *
 Allow: /
-Disallow: /agreement
 Disallow: /privacy
-Disallow: /admin
-Disallow: /login
 
 Sitemap: https://psyhohelp.by/sitemap.xml
+# END nuxt-robots
